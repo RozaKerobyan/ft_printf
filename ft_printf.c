@@ -32,7 +32,7 @@ int	ft_convert(va_list args, const char format)
 	else if (format == 'p')
 	{
 		j += ft_put_s("0x");
-		j += ft_put_p(va_arg(args, unsigned long long));
+		j += ft_put_p(va_arg(args, uintptr_t));
 	}
 	else if (format == '%')
 		j += ft_put_c('%');
