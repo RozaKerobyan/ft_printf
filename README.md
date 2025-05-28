@@ -12,10 +12,10 @@
 Clone the repository to your local machine using the following command:
 
 ``` bash
-git@github.com:RozaKerobyan/ft_printf.git
+git clone git@github.com:RozaKerobyan/ft_printf.git
 ```
 
-### 2. Navigate to the Libft Directory
+### 2. Navigate to the ft_printf Directory
 ``` bash
 cd ft_printf
 ```
